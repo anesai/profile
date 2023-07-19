@@ -1,0 +1,123 @@
+body {
+  background: hsl(17, 95%, 63%);
+  color: #25699e;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #19285e;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #1a2550;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  color: #1a2550;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #46bcf2;
+  font-weight: 600;
+  font-size: 22px;
+}
+a:hover {
+  color: rgb(71, 141, 252);
+}
+
+div {
+  line-height: 1.2;
+  font-size: 12pt;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(43, 42, 42, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgb(156, 149, 149);
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.button-behance {
+  background-color: #3caff1;
+  color: white;
+  font-size: 13pt;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.button-behance:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(61, 67, 252);
+}
+
+.list-inline i:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
